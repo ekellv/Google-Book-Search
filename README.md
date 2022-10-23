@@ -6,7 +6,7 @@ This application uses the MERN stack to replace a RESTful API and instead use Gr
 
 ![Github license](http://img.shields.io/badge/License-MIT-yellow.svg)
 
-[A version of the deployed website can be viewed here.]()
+[A version of the deployed website can be viewed here.](https://git.heroku.com/secure-mesa-18008.git)
 
 ## Contents
 
