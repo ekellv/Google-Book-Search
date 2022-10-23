@@ -4,14 +4,15 @@ import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'reac
 import Auth from '../utils/auth';
 import { searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 import { SAVE_BOOK } from '../utils/mutations'
 
 const SearchBooks = () => {
-  const [saveBook, { error }] = useMutation(SAVE_BOOK);
   const [searchedBooks, setSearchedBooks] = useState([]);
   const [searchInput, setSearchInput] = useState('');
   const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
+
+  const [saveBook, { error }] = useMutation(SAVE_BOOK);
 
   useEffect(() => {
     return () => saveBookIds(savedBookIds);

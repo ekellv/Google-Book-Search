@@ -13,9 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-  "dotenv": "^10.0.0",
-  "if-env": "^1.0.4",
-  "json-web-token": "^3.2.0"
+    "apollo-server-express": "^3.6.2",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.2",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8"
   },
   "engines": {
     "node": "18.x"},

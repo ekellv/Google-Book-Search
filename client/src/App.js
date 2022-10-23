@@ -12,7 +12,7 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+
 });
 
 const client = new ApolloClient({
@@ -25,7 +25,9 @@ const client = new ApolloClient({
       }
     })
   },
+  uri: '/graphql',
   cache: new InMemoryCache(),
+
 });
 
 
