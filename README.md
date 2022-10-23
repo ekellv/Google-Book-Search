@@ -100,7 +100,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Visuals:
 
-![]()
+![google-bks-homepage](https://user-images.githubusercontent.com/103372188/197400301-ed6d90d7-9d4b-42ae-b63e-aa5e0adf3832.png)
 
 ## Technologies
 
